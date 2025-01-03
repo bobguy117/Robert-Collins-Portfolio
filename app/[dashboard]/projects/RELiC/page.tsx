@@ -4,14 +4,13 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
+        <iframe
+          src="https://drive.google.com/file/d/1KQpNxF3FfDfFExcksf3xrfpw2lowWxDy/preview"
+          width="640"
+          height="480"
+          allow="autoplay"
+          className="rounded-lg shadow-md"
+        ></iframe>
         <div style={{ textAlign: "center", marginTop: "16px" }}>
           <a
             href="https://github.com/bobguy117/Robert-Collins-Portfolio"
