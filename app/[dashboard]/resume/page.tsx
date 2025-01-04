@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Home() {
+export default function Resume() {
   return (
     <div className="w-screen h-screen">
       <main>
@@ -11,6 +11,7 @@ export default function Home() {
           title="My Resume"
           style={{ border: "none" }}
         ></iframe>
+        
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Home() {
+export default function Contact() {
   return (
     <div className="grid grid-rows-[1fr_auto_1fr] items-center justify-items-center min-h-screen p-8 pb-20 gap-4 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-4 row-start-2 items-center">
@@ -39,7 +39,7 @@ export default function Home() {
           </a>
         </div>
       </main>
-      
+
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
