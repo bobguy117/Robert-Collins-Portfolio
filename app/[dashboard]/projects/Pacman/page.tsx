@@ -1,5 +1,8 @@
 import Image from "next/image";
 
+//Page for displaying Pacman Project
+//Ideally will include video demo and link to the paper
+//Should have a back button and a link to navigate to the other pages
 export default function Project_pacman() {
   return (
     <div className="w-screen h-screen">

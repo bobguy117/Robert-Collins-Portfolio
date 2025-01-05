@@ -1,5 +1,8 @@
 import Image from "next/image";
 
+//Page for displaying Relic Project
+//Ideally will include video demo and link to the playable game
+//Should have a back button and a link to navigate to the other pages
 export default function ProjectRelic() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">

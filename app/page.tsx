@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+//Home page for start of navigation
+//Ideally will include buttons to access other pages
+//Header and footer?
+//Currently no difference between this and contact page, but i would like there to be a distinvtion
+//Should have a back button and a link to navigate to the other pages
 export default function Home() {
   
   return (

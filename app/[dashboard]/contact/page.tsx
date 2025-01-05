@@ -1,5 +1,9 @@
 import Image from "next/image";
 
+//Page for displaying Contact
+//Ideally will include email, linkedin, github, and personal info.
+//Currently no difference between this and home page, but i would like there to be a distinvtion
+//Should have a back button and a link to navigate to the other pages
 export default function Contact() {
   return (
     <div className="grid grid-rows-[1fr_auto_1fr] items-center justify-items-center min-h-screen p-8 pb-20 gap-4 sm:p-20 font-[family-name:var(--font-geist-sans)]">

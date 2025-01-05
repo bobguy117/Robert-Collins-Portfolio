@@ -1,5 +1,8 @@
 import Image from "next/image";
 
+//Page for displaying Resume
+//Currently features an embedded Google Doc, but I would like to change it to natively display the information
+//Should have a back button and a link to navigate to the other pages
 export default function Resume() {
   return (
     <div className="w-screen h-screen">
