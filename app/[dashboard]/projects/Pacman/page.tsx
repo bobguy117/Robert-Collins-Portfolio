@@ -5,8 +5,8 @@ import Image from "next/image";
 //Should have a back button and a link to navigate to the other pages
 export default function Project_pacman() {
   return (
-    <div className="w-screen h-screen">
-      <main>
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <main className="flex flex-col gap-8 row-start-2 items-center">
       <iframe 
         src="https://drive.google.com/file/d/1BNAvWc1W5GGSM4RVri3DjDFBTIcSlthf/preview" 
         width="640" 
