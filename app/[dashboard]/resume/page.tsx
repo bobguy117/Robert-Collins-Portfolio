@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import Navbar from "@/app/site/navbar";
 
 //Page for displaying Resume
 //Currently features an embedded Google Doc, but I would like to change it to natively display the information
@@ -6,6 +9,7 @@ import Image from "next/image";
 export default function Resume() {
   return (
     <div className="w-screen h-screen">
+      <Navbar />
       <main>
         <iframe
           src="https://docs.google.com/document/d/1T0dq5XRH6Jbh6TBQH20IaoX5rp_gH6l3HzIHakNdVW8/preview"

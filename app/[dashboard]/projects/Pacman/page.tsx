@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import Navbar from "@/app/site/navbar";
 
 //Page for displaying Pacman Project
 //Ideally will include video demo and link to the paper
@@ -6,6 +9,7 @@ import Image from "next/image";
 export default function Project_pacman() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <Navbar />
       <main className="flex flex-col gap-8 row-start-2 items-center">
         <iframe 
           src="https://drive.google.com/file/d/1BNAvWc1W5GGSM4RVri3DjDFBTIcSlthf/preview" 
