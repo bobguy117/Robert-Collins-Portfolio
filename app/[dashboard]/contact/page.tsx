@@ -9,7 +9,7 @@ import Navbar from "@/app/site/navbar";
 //Should have a back button and a link to navigate to the other pages
 export default function Contact() {
   return (
-    <div className="grid grid-rows-[1fr_auto_1fr] items-center justify-items-center min-h-screen p-8 pb-20 gap-4 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="w-screen h-screen">
       <Navbar />
       <main className="flex flex-col gap-4 row-start-2 items-center">
         <Image
