@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 // Navigation bar for the website
+// Buttons should bubble up when hovering
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
