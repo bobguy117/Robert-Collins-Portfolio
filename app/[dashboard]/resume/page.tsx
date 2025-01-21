@@ -54,7 +54,32 @@ export default function Resume() {
             <ul className="list-disc ml-5 mt-2 space-y-2">
               <li>Validated installation of mechanical and electrical systems onboard Navy hovercrafts (LCAC100).</li>
               <li>Updated technical drawings using AutoCAD and SolidWorks.</li>
+              <li>Created individualized government work packages containing individual craft data using HTML.</li>
               <li>Oversaw and maintained progress tracking systems for LCAC Command, Control, Communications, Computers, and Navigation (C4N).</li>
+            </ul>
+
+            <h3 className="text-xl font-semibold">Pump Engineering Co-op - Abiomed, Inc.</h3>
+            <p>Danvers, MA (July 2016 - December 2016)</p>
+            <ul className="list-disc ml-5 mt-2 space-y-2">
+              <li>Provided valuable testing results during DFMEA investigations of Impella Pump system that helped resolve new failure mode analysis.</li>
+              <li>Designed a custom-fit attachment for compatibility between pump system and Keyence microscope.</li>
+              <li>Created detailed procedure on operation of new lab hardware for in-house instructional purposes including Scanning Electron Microscope.</li>
+            </ul>
+
+            <h3 className="text-xl font-semibold">Systems Engineering Co-op - Lytron, Inc.</h3>
+            <p>Woburn, MA (June 2015 - December 2015)</p>
+            <ul className="list-disc ml-5 mt-2 space-y-2">
+              <li>Led a team in testing of new vital components after unexpected vendor obsolescence.</li>
+              <li>Suggested design improvements to refrigeration system that helped reduce cost of production by half.</li>
+              <li>Altered designs of pump systems and user interface using machine shop to improve performance and increase testing efficiency.</li>
+            </ul>
+
+            <h3 className="text-xl font-semibold">Mechanical Engineering Co-op - NxSTAGE Medical, Inc.</h3>
+            <p>Lawrence, MA (June 2014 - December 2014)</p>
+            <ul className="list-disc ml-5 mt-2 space-y-2">
+              <li>Designed test systems and followed procedures to verify consistency of and investigate variability with use of System One Dialysis machine.</li>
+              <li>Compiled results of testing, lab reports, and procedural documents into a company-wide database using a digital Data Acquisition System.</li>
+              <li>Altered circuit system to bypass internal restrictions in order to collect data for machines running at extreme temperatures and flow rates.</li>
             </ul>
           </div>
         </section>
@@ -69,13 +94,13 @@ export default function Resume() {
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="/projects"
+          href="/dashboard/projects"
         >
           Projects
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="/contact"
+          href="/dashboard/contact"
         >
           Contact Me →
         </a>
