@@ -44,6 +44,25 @@ export default function Resume() {
               <li>Collaborated with a team of ten engineers using Git, Microsoft Teams, Lensa, and Jira.</li>
             </ul>
           </div>
+
+          <div className="mb-6">
+            <h3 className="text-xl font-semibold">Neural Network-Controlled Pac-Man Agent using PyTorch</h3>
+            <ul className="list-disc ml-5 mt-2 space-y-2">
+              <li>Co-developed a neural network-based agent for the Pac-Man environment with Python, trained using backpropagation, PyTorch libraries, and evolutionary algorithms</li>
+              <li>Transformed the Pac-Man game map into a numerical tensor to enable neural network processing, implementing various neural network architectures with 2-3 hidden layers and Long Short-Term Memory (LSTM) for sequential data handling</li>
+              <li>Employed PyTorchs DataLoader, Dataset, and torch.nn packages for model development, with dropout regularization to prevent overfitting</li>
+              <li>Utilized cross-entropy loss function and Adam optimizer for training, performing backpropagation to minimize prediction errors</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="text-xl font-semibold">Unity 3D Platformer Game ‘RELiC’</h3>
+            <ul className="list-disc ml-5 mt-2 space-y-2">
+              <li>Co-developed a 3D action-adventure game featuring platforming, puzzles, and combat across variable planets and ancient ruins</li>
+              <li>Implemented a custom gravity system in C# to support unique planet gravitational mechanics, allowing players to explore small planetoids</li>
+              <li>Developed enemy AI, player functionality, and UI elements including combat mechanics, HUD, and a final boss encoun</li>
+            </ul>
+          </div>
         </section>
 
         <section className="mb-8">
