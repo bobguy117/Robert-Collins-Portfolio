@@ -7,6 +7,7 @@ import Navbar from "@/app/site/navbar";
 //Currently features an embedded Google Doc, but I would like to change it to natively display the information
 //Should have a back button and a link to navigate to the other pages
 //Testing new styles
+//Resuming Testing
 export default function Resume() {
   return (
     <div className="w-screen min-h-screen bg-gradient-to-b from-purple-600 to-black text-white font-sans">
