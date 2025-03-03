@@ -8,6 +8,7 @@ import Navbar from "@/app/site/navbar";
 //Should have a back button and a link to navigate to the other pages
 //Testing new styles
 //Resuming Testing
+//No progress today
 export default function Resume() {
   return (
     <div className="w-screen min-h-screen bg-gradient-to-b from-purple-600 to-black text-white font-sans">
